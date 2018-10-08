@@ -12,7 +12,7 @@ var misscity = document.getElementById("misscity")
 var formvalid = document.getElementById("submit")
 /*Regex pour mon formulaire/////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////*/
-var textvalid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèîïçà]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèîïçà]+)?/;
+var textvalid = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèîïçà]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèîïçà]+)?$/;
 
 formvalid.addEventListener("click", validation);
 
